@@ -6,6 +6,7 @@
 
 - `ai_art_brief/STYLE_TARGET.md`
 - `ai_art_brief/VISUAL_QUALITY_BAR.md`
+- `ai_art_brief/images/01_style_target_pressure_network_concept.png`
 - `ai_art_brief/ART_DIRECTION.md`
 - `ai_art_brief/REQUIREMENTS_AND_LIMITS.md`
 
@@ -16,6 +17,8 @@
 全国大地图按宋代《华夷图》《禹迹图》的视觉语言来做。它是山川州郡堪舆总图，也是压力路网的底座，不是现代行政地图，不是县界图，不是 GIS 拼接图，也不是 2.5D DEM 浮雕图。全国层必须把海陆、山脉、水系、州府、关隘、驿站、漕运、边防路网分清楚。山脉要用古代舆图式山川符号表达，不能用几条长线当山脉。县界硬边只允许出现在 z10-z11 局部沙盘。
 
 美术质量要求：不能像工程调试图，不能像简单 GIS 截图加古风滤镜。它必须有统一符号系统、克制色彩、清楚文字层级、漂亮的古代舆图气质，并且能让 Unity 继续叠加路线状态、节点状态和压力覆盖层。
+
+可参考 `01_style_target_pressure_network_concept.png` 的气质和层级，但不要照抄里面的地名、年份、边界和路线。
 
 请输出：
 

@@ -12,11 +12,12 @@
 - `ai_art_brief/ART_DIRECTION.md`
 - `ai_art_brief/REQUIREMENTS_AND_LIMITS.md`
 - `ai_art_brief/MODEL_HANDOFF_PROMPT.md`
+- `ai_art_brief/images/01_style_target_pressure_network_concept.png`
 - `ai_art_brief/images/01_full_game_layers_v16.jpg`
 
 Preview:
 
-![Northern Song data reference](ai_art_brief/images/01_full_game_layers_v16.jpg)
+![Northern Song pressure network concept](ai_art_brief/images/01_style_target_pressure_network_concept.png)
 
 ## Scale Rule
 
