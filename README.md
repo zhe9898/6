@@ -9,15 +9,17 @@
 - `ai_art_brief/README.md`
 - `ai_art_brief/STYLE_TARGET.md`
 - `ai_art_brief/VISUAL_QUALITY_BAR.md`
+- `ai_art_brief/HISTORICAL_LABEL_ERRATA.md`
 - `ai_art_brief/ART_DIRECTION.md`
 - `ai_art_brief/REQUIREMENTS_AND_LIMITS.md`
 - `ai_art_brief/MODEL_HANDOFF_PROMPT.md`
+- `ai_art_brief/images/00_primary_pressure_network_kanyu_reference.png`
 - `ai_art_brief/images/01_style_target_pressure_network_concept.png`
 - `ai_art_brief/images/01_full_game_layers_v16.jpg`
 
 Preview:
 
-![Northern Song pressure network concept](ai_art_brief/images/01_style_target_pressure_network_concept.png)
+![Northern Song pressure network kanyu reference](ai_art_brief/images/00_primary_pressure_network_kanyu_reference.png)
 
 ## Scale Rule
 

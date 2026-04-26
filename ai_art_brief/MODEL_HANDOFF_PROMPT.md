@@ -6,6 +6,8 @@
 
 - `ai_art_brief/STYLE_TARGET.md`
 - `ai_art_brief/VISUAL_QUALITY_BAR.md`
+- `ai_art_brief/HISTORICAL_LABEL_ERRATA.md`
+- `ai_art_brief/images/00_primary_pressure_network_kanyu_reference.png`
 - `ai_art_brief/images/01_style_target_pressure_network_concept.png`
 - `ai_art_brief/ART_DIRECTION.md`
 - `ai_art_brief/REQUIREMENTS_AND_LIMITS.md`
@@ -18,7 +20,14 @@
 
 美术质量要求：不能像工程调试图，不能像简单 GIS 截图加古风滤镜。它必须有统一符号系统、克制色彩、清楚文字层级、漂亮的古代舆图气质，并且能让 Unity 继续叠加路线状态、节点状态和压力覆盖层。
 
-可参考 `01_style_target_pressure_network_concept.png` 的气质和层级，但不要照抄里面的地名、年份、边界和路线。
+优先参考 `00_primary_pressure_network_kanyu_reference.png` 的气质和层级；`01_style_target_pressure_network_concept.png` 只作次级参考。不要照抄样张里的地名、年份、边界和路线。
+
+历史标签硬限制：
+
+- 北宋图里禁止出现 `山海关`。
+- 若需要东北/辽西走廊关口，只能先写 `榆关（待校）`、`临榆（待校）` 或其他待校候选名。
+- `居庸关` 如出现，只能标成 `居庸关（辽境）` 或 `燕云压力源`，不能画成宋境节点。
+- 不确定的关口、驿站、水道、路线必须标 `待校`，不能冒充史实定稿。
 
 请输出：
 
@@ -51,6 +60,8 @@
 - 不要现代地图、省界、国界、高速、铁路、机场、现代城市天际线。
 - 不要把规划面当 CHGIS 官方边界。
 - 不要把谭图线稿当最终边界。
+- 不要出现 `山海关`；不要把 `居庸关` 画成宋境关隘。
+- 不确定关隘、驿站、水道必须标 `待校`。
 - 必须使用简体中文说明。
 
 ## 给出图模型的正向提示词

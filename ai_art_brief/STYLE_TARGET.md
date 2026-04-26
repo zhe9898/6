@@ -45,11 +45,12 @@
 
 ## 当前方向样稿
 
+- `images/00_primary_pressure_network_kanyu_reference.png`
 - `images/01_style_target_pressure_network_concept.png`
 
-这张样稿可以作为美术方向参考：它展示了“堪舆总图 + 压力路网覆盖层”的基本感觉，包括古代纸本/拓片质感、节点路线层级、压力热区和水陆交通关系。
+`00_primary_pressure_network_kanyu_reference.png` 是当前第一参考：它更接近《华夷图》《禹迹图》式的北宋宏观压力网络图。`01_style_target_pressure_network_concept.png` 是次级概念图。
 
-它不是史实数据稿。不要照抄其中的地名、年份、路线和边界；最终图必须回到项目数据和校准后的文本。
+这些样稿都不是史实数据稿。不要照抄其中的地名、年份、路线和边界；最终图必须回到项目数据和校准后的文本。关隘和时代标签必须先看 `HISTORICAL_LABEL_ERRATA.md`。
 
 ## 给出图模型的方向
 
