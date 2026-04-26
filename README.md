@@ -1,48 +1,43 @@
-# Northern Song GIS Sandbox Package
+# Northern Song 2.5D Sandtable Reference
 
-This repository hosts the Northern Song GIS/sandbox data package.
+这个仓库给 Gemini / GPT / Kimi / 美术同学看的，不是把北宋行政 GIS 原样端上画面。
 
-## For Gemini / GPT / Kimi
+主方向已经改成：全国大地图按宋代《华夷图》《禹迹图》的石刻堪舆总图语言来做。全国层看海陆、山脉、水系、州府、关隘、驿站、漕运和边防通道；不要做现代 DEM 浮雕，也不要铺县界。2.5D 沙盘只进入区域/局部可操作层。
 
-Start here:
+## Start Here
 
 - `ai_art_brief/README.md`
+- `ai_art_brief/STYLE_TARGET.md`
+- `ai_art_brief/VISUAL_QUALITY_BAR.md`
 - `ai_art_brief/ART_DIRECTION.md`
 - `ai_art_brief/REQUIREMENTS_AND_LIMITS.md`
 - `ai_art_brief/MODEL_HANDOFF_PROMPT.md`
-- `ai_art_brief/images/00_contact_sheet.jpg`
 - `ai_art_brief/images/01_full_game_layers_v16.jpg`
-
-This is the lightweight art-direction handoff package. It explains the map direction, visual style, hard constraints, and which layers are only planning/reference layers.
 
 Preview:
 
-![Northern Song art brief contact sheet](ai_art_brief/images/00_contact_sheet.jpg)
+![Northern Song data reference](ai_art_brief/images/01_full_game_layers_v16.jpg)
 
-## Split Primary Layers
+## Scale Rule
 
-The most important package files have also been extracted into:
+- `z7 全国层`：华夷图 / 禹迹图式堪舆总图，海陆硬分，名山大川、州府、关隘、驿站、水陆交通清楚；不做 DEM 浮雕，不铺县界，不铺行政补面。
+- `z8-z9 区域层`：开始进入 2.5D 沙盘，路、州、转运、边防、漕运、山口和渡口成为主体；府州区域感可以弱显示。
+- `z10-z11 局部层`：县乡、城池、军寨、渡口、驿站、市场和关隘进入可操作沙盘；县级边界可以露硬边。
+
+## Data Package
+
+轻量拆分层在：
 
 - `package_v16_primary_layers/`
 
-Use this directory when a model or reviewer needs to inspect actual GeoJSON layers without downloading the full archive.
+完整大包仍在 GitHub Release：
 
-## Download
-
-The full package is published as a GitHub Release asset:
-
-- `northern_song_filled.zip`
 - Release page: https://github.com/zhe9898/6/releases/tag/northern-song-v16
 - Direct asset: https://github.com/zhe9898/6/releases/download/northern-song-v16/northern_song_filled.zip
 
-The zip is intentionally kept as a single release asset because it is about 499 MB, which is larger than GitHub's normal single-file limit for files committed directly into the repository.
+## Source Roles
 
-## Current Package
-
-- Version: v16
-- Main archive: `northern_song_filled.zip`
-- Contents: administrative planning surfaces, CHGIS official prefecture polygons, gap resolution layers, hydrography reference layers, transport routes, transport nodes, named terrain calibration, Tan atlas promotion queue, DEM-derived maps, and game zoom slices.
-
-## Notes
-
-Planning and game-reference layers are marked with authority and confidence fields. They should not be treated as CHGIS original official boundaries unless their metadata explicitly says so.
+- CHGIS：行政点和官方府州几何的权威参考，但不强制决定全国层视觉。
+- 谭图：山川形势、边界修形和历史地图语言参考，不直接替代 CHGIS。
+- DEM：只作为地貌位置校准和局部沙盘参考；不要把全国图做成 DEM 浮雕。
+- 1820 / Natural Earth 水系：提供水网密度和海岸陆地分离参考，后续再校北宋定年水系。

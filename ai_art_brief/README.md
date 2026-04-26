@@ -1,28 +1,32 @@
-# 给 Gemini / GPT / Kimi 的北宋沙盘美术参考包
+# 给 Gemini / GPT / Kimi 的北宋 2.5D 沙盘美术参考包
 
-请先看这三个文件：
+先看这个文件，不要从程序渲染图开始定画风：
 
-1. `ART_DIRECTION.md`：图是什么方向，视觉基调、视角、色彩和层级。
-2. `REQUIREMENTS_AND_LIMITS.md`：必须遵守的要求和不能乱画的限制。
-3. `MODEL_HANDOFF_PROMPT.md`：可以直接复制给 Gemini / GPT / Kimi 的任务提示词。
+- `STYLE_TARGET.md`
 
-再看图片：
+当前主方向：全国大图是宋代《华夷图》《禹迹图》式的堪舆总图，不是 2.5D DEM 浮雕图。2.5D 沙盘只进入区域/局部层。程序渲染图只能用来读数据关系，不能照画风。
 
-- `images/00_contact_sheet.jpg`：所有参考图的缩略总览。
-- `images/01_full_game_layers_v16.jpg`：主参考图，优先看这一张。
-- `images/02_admin_planning_v15.jpg`：行政规划补面方向。
-- `images/03_tan_alignment_v13.jpg`：谭图和行政面如何叠合。
-- `images/05_dem_hillshade_z8.jpg`：地形阴影方向。
-- `images/06_network_operations_z8.jpg`：交通/漕运/边防路线方向。
+## 阅读顺序
 
-小型图层在 `layers/`，完整主图层在仓库根目录的 `package_v16_primary_layers/`。
+1. `ART_DIRECTION.md`：图到底是什么方向，哪些层该显示。
+2. `STYLE_TARGET.md`：美术主目标，明确不要做 DEM 浮雕。
+3. `VISUAL_QUALITY_BAR.md`：视觉质量底线，防止做成丑的工程图。
+4. `REQUIREMENTS_AND_LIMITS.md`：硬要求和禁止项。
+5. `MODEL_HANDOFF_PROMPT.md`：可以直接复制给 Gemini / GPT / Kimi 的任务提示词。
+6. `LAYER_INDEX.md`：数据层怎么用，哪些只是参考。
 
-## 图片预览
+## 图片入口
 
-![contact sheet](images/00_contact_sheet.jpg)
+- `images/01_full_game_layers_v16.jpg`：数据参考图，不能照画风。
+- `images/00_contact_sheet.jpg`：缩略总览。
+- `images/01_full_game_layers_v16.jpg`：综合图层参考，不能照搬成全国美术图。
+- `images/02_admin_planning_v15.jpg`：行政规划补面参考，只用于理解数据，不是全国美术方向。
+- `images/03_tan_alignment_v13.jpg`：谭图与行政面叠合参考，用于修形和历史地图语言。
+- `images/05_dem_hillshade_z8.jpg`：地形阴影参考，用于 2.5D 浮雕。
+- `images/06_network_operations_z8.jpg`：交通、漕运、边防路线参考。
 
-![main reference](images/01_full_game_layers_v16.jpg)
+## 一句话方向
 
-一句话方向：
+全国大图做“北宋华夷禹迹式山川堪舆总图”，不做 DEM 浮雕，不造县界；2.5D 沙盘只在区域/局部层进入县乡、城池、军寨、渡口、驿站和硬县界。
 
-> 做“北宋行政地理沙盘”的美术基调，不做现代地图，不做泛古风海报；要像一张能放进策略游戏里的、带史料边界意识的 2.5D 地形行政参考图。
+![data reference](images/01_full_game_layers_v16.jpg)
