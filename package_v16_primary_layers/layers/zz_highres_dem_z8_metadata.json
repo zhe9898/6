@@ -1,0 +1,29 @@
+{
+  "generated_at": "2026-04-25T22:36:35.795Z",
+  "source": "AWS Open Data Terrain Tiles / Mapzen Terrarium",
+  "source_url": "https://registry.opendata.aws/terrain-tiles/",
+  "tile_url_pattern": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png",
+  "zoom": 8,
+  "bbox": [
+    94,
+    17,
+    126,
+    43
+  ],
+  "tiles_requested": 528,
+  "tiles_downloaded_this_run": 528,
+  "width": 5825,
+  "height": 5546,
+  "min_elevation_m": -500,
+  "max_elevation_m": 7410,
+  "mean_elevation_m": 1098.5,
+  "outputs": {
+    "hillshade": "layers/zz_dem_z8_hillshade.png",
+    "friction": "layers/zz_travel_friction_z8_seed.png",
+    "relief_skeleton": "layers/zz_dem_z8_relief_skeleton_candidates.geojson",
+    "network_edges_z8": "layers/zz_transport_network_edges_z8.geojson",
+    "network_nodes_z8": "layers/zz_transport_network_nodes_z8.geojson",
+    "network_map_v5_z8": "layers/zz_network_operations_map_v5_z8.png"
+  },
+  "note": "z8 为全域增强 DEM，适合大区沙盘和更细地貌参考；局部城镇级仍建议开 z9/z10 窗口。"
+}

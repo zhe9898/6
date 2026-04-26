@@ -1,0 +1,594 @@
+{
+  "type": "FeatureCollection",
+  "name": "zz_ns_named_mountains_calibrated_v16",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_001",
+        "NAME_CH": "太行山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_taihang",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "华北平原西缘与河东、河北之间的山地屏障。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            111.2,
+            35.2
+          ],
+          [
+            112,
+            36.2
+          ],
+          [
+            112.5,
+            37.4
+          ],
+          [
+            113.2,
+            38.6
+          ],
+          [
+            114,
+            40.1
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_002",
+        "NAME_CH": "吕梁山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_luliang",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "河东西部南北向山地骨架。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.3,
+            35.7
+          ],
+          [
+            110.8,
+            36.7
+          ],
+          [
+            111.2,
+            37.8
+          ],
+          [
+            111.7,
+            39
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_003",
+        "NAME_CH": "秦岭",
+        "SOURCE_TERRAIN_ID": "terrain_seed_qinling",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "关中与汉中、四川之间的关键山地分界。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.7,
+            33.6
+          ],
+          [
+            107.1,
+            33.8
+          ],
+          [
+            108.9,
+            34
+          ],
+          [
+            110.3,
+            34
+          ],
+          [
+            111.6,
+            33.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_004",
+        "NAME_CH": "大巴山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_daba",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "川陕、汉水上游与夔峡方向的山地骨架。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106.2,
+            31.8
+          ],
+          [
+            108,
+            32
+          ],
+          [
+            109.7,
+            32
+          ],
+          [
+            111.5,
+            31.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_005",
+        "NAME_CH": "伏牛山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_funiu",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "洛阳、汝许、襄邓之间的山地边界候选。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.7,
+            33.2
+          ],
+          [
+            111.8,
+            33.6
+          ],
+          [
+            113,
+            33.8
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_006",
+        "NAME_CH": "大别山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_dabieshan",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "淮南、江汉与江南北缘之间的山地屏障。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.3,
+            31.1
+          ],
+          [
+            115.4,
+            31.5
+          ],
+          [
+            116.7,
+            31.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_007",
+        "NAME_CH": "燕山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_yanshan",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "河北北缘、幽燕方向的山地边界候选。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115,
+            39.6
+          ],
+          [
+            116.6,
+            40.1
+          ],
+          [
+            118.2,
+            40.5
+          ],
+          [
+            119.6,
+            40.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_008",
+        "NAME_CH": "阴山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_yinshan",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "河套、朔方北缘方向的远景山地边界候选。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            106,
+            40.4
+          ],
+          [
+            108.4,
+            41
+          ],
+          [
+            111,
+            41.2
+          ],
+          [
+            113,
+            41.4
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_009",
+        "NAME_CH": "六盘山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_liupan",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "秦凤、泾原方向的西北山地通道候选。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            105.5,
+            35.2
+          ],
+          [
+            106,
+            35.8
+          ],
+          [
+            106.5,
+            36.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_010",
+        "NAME_CH": "巫山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_wushan",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "峡江与荆湖、夔州之间的山峡骨架。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.4,
+            30.2
+          ],
+          [
+            110,
+            30.9
+          ],
+          [
+            110.9,
+            31.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_011",
+        "NAME_CH": "武当",
+        "SOURCE_TERRAIN_ID": "terrain_seed_wudang",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "汉水中游北侧山地候选。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.6,
+            32.1
+          ],
+          [
+            111.1,
+            32.5
+          ],
+          [
+            111.6,
+            32.9
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_012",
+        "NAME_CH": "鲁中山地/泰山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_luzhong",
+        "MOUNTAIN_CLASS": "upland_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "京东路、山东丘陵与泰山方向地貌提示。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.8,
+            35.7
+          ],
+          [
+            117.4,
+            36.1
+          ],
+          [
+            118.3,
+            36.7
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_013",
+        "NAME_CH": "武夷山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_wuyi",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "福建与江南东南腹地之间的山地骨架。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            116.8,
+            25.3
+          ],
+          [
+            117.5,
+            26.5
+          ],
+          [
+            118.3,
+            27.6
+          ],
+          [
+            119,
+            28.5
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_014",
+        "NAME_CH": "南岭",
+        "SOURCE_TERRAIN_ID": "terrain_seed_nanling",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "岭南与江南、荆湖南缘之间的山地分界。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.6,
+            24.5
+          ],
+          [
+            111.2,
+            25
+          ],
+          [
+            113,
+            25.3
+          ],
+          [
+            114.7,
+            25.6
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_015",
+        "NAME_CH": "雪峰山",
+        "SOURCE_TERRAIN_ID": "terrain_seed_xuefeng",
+        "MOUNTAIN_CLASS": "mountain_belt_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "荆湖南部与黔中、岭南方向地貌提示。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.3,
+            26.1
+          ],
+          [
+            110.1,
+            27.1
+          ],
+          [
+            111.1,
+            28.2
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "MOUNTAIN_ID": "mountain_calibrated_016",
+        "NAME_CH": "青藏高原东缘",
+        "SOURCE_TERRAIN_ID": "terrain_seed_qinghai_tibet_edge",
+        "MOUNTAIN_CLASS": "plateau_edge_seed",
+        "CALIBRATION_STATUS": "命名山脉规划校准层",
+        "AUTHORITY": "DEM_TAN_NAME_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "named_terrain_seed_low_to_medium",
+        "GAME_USE": "山脉遮挡、通行成本、关隘、边防与 2.5D 地貌表现",
+        "HISTORICAL_NOTE": "西部边疆/缺面区的高原边缘提示，非宋境精确边界。",
+        "SOURCE_BASIS": "DEM z8 地貌骨架 + 谭图覆盖主题 + 命名山脉常识校准",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_RIDGE": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            96.5,
+            32.2
+          ],
+          [
+            99,
+            33.2
+          ],
+          [
+            101.5,
+            34
+          ],
+          [
+            104,
+            34
+          ]
+        ]
+      }
+    }
+  ]
+}

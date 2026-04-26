@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-04-26T01:27:57.801878+00:00",
+  "problem_fixed": "补齐华北、西北、西南、开封中原等只显示点或府州面不足的问题。",
+  "method": "以 CHGIS 官方点为站点生成 Voronoi 行政规划面；CHGIS 官方府州面仍另作权威叠加。",
+  "authority_note": "新增规划面不是 CHGIS 原始边界，必须带推定标记使用。",
+  "envelope": "layers/zz_ns_admin_planning_envelope_v15.geojson",
+  "prefecture_planning": {
+    "file": "layers/zz_ns_prefecture_full_planning_surfaces_v15.geojson",
+    "features": 639,
+    "duplicate_points_jittered": 171,
+    "official_prefecture_covered_points": 289,
+    "gap_region_points": 350
+  },
+  "county_planning": {
+    "file": "layers/zz_ns_county_full_planning_surfaces_v15.geojson",
+    "features": 1919,
+    "duplicate_points_jittered": 266,
+    "official_prefecture_covered_points": 945,
+    "gap_region_points": 974
+  },
+  "official_prefecture_authority_layer": "layers/zz_chgis_official_song_prefecture_polygons_v7.geojson"
+}

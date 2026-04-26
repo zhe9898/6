@@ -1,0 +1,392 @@
+{
+  "type": "FeatureCollection",
+  "name": "zz_ns_hydro_calibrated_v16",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "HYDRO_ID": "hydro_001",
+        "NAME_CH": "黄河中下游变迁带",
+        "CLASS_CH": "河道变迁带",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "河中府 -> 陕州 -> 河南府 -> 郑州 -> 开封府 -> 澶州 -> 濮州 -> 大名府 -> 德州 -> 沧州 -> 黄河入海变迁区",
+        "NODE_SOURCES": "河中府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 陕州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 河南府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 郑州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 开封府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 澶州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 濮州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 大名府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 德州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 沧州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 黄河入海变迁区:manual_anchor",
+        "LENGTH_KM": 1023,
+        "CALIBRATION_STATUS": "定年风险高：北宋黄河多次决徙，作变迁带而非单线",
+        "AUTHORITY": "SOURCE_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "phase_sensitive_medium",
+        "GAME_USE": "水患、漕运压力、渡口与边防调度",
+        "HISTORICAL_NOTE": "不把黄河画成单一固定河道；游戏层以变迁带承载水患和交通风险。",
+        "SOURCE_BASIS": "宋史河渠志 + CHGIS 府州点 + DEM/水系参考",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": false,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            110.332306,
+            34.835129
+          ],
+          [
+            111.145027,
+            34.796078
+          ],
+          [
+            112.456207,
+            34.679855
+          ],
+          [
+            113.659744,
+            34.752853
+          ],
+          [
+            114.346184,
+            34.790062
+          ],
+          [
+            115.029847,
+            35.758984
+          ],
+          [
+            115.50486,
+            35.668041
+          ],
+          [
+            115.205604,
+            36.296364
+          ],
+          [
+            116.566994,
+            37.335293
+          ],
+          [
+            117.025986,
+            38.204594
+          ],
+          [
+            118.6,
+            38
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "HYDRO_ID": "hydro_002",
+        "NAME_CH": "汴河/通济渠漕运线",
+        "CLASS_CH": "运河/漕运",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "开封府 -> 应天府 -> 宿州 -> 泗州 -> 楚州 -> 扬州",
+        "NODE_SOURCES": "开封府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 应天府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 宿州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 泗州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 楚州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 扬州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 638,
+        "CALIBRATION_STATUS": "北宋东京漕运骨架，几何按府州节点校准",
+        "AUTHORITY": "SOURCE_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "漕粮入京、仓储、船运、河渠维护",
+        "HISTORICAL_NOTE": "汴河/通济渠是东京粮运核心；当前线为节点化校准，不是河渠中心线测绘。",
+        "SOURCE_BASIS": "宋史河渠志 + 元丰九域志点位 + CHGIS",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": false,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.346184,
+            34.790062
+          ],
+          [
+            115.603643,
+            34.365722
+          ],
+          [
+            116.971397,
+            33.642368
+          ],
+          [
+            118.468114,
+            33.023402
+          ],
+          [
+            119.141106,
+            33.502789
+          ],
+          [
+            119.437187,
+            32.39127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "HYDRO_ID": "hydro_003",
+        "NAME_CH": "淮河东西向水系",
+        "CLASS_CH": "河流",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "光州 -> 蔡州 -> 颍州 -> 寿州 -> 濠州 -> 泗州 -> 楚州",
+        "NODE_SOURCES": "光州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 蔡州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 颍州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 寿州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 濠州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 泗州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 楚州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 589.3,
+        "CALIBRATION_STATUS": "节点化校准水系",
+        "AUTHORITY": "SOURCE_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "淮南转运、水患、军事边界与渡口",
+        "HISTORICAL_NOTE": "用于表达淮水与淮南州县的水运压力。",
+        "SOURCE_BASIS": "宋史河渠志 + CHGIS 府州点 + 1820/现代水系参考",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": false,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            115.044365,
+            32.134792
+          ],
+          [
+            114.357521,
+            33.003738
+          ],
+          [
+            115.809013,
+            32.903057
+          ],
+          [
+            116.720093,
+            32.705585
+          ],
+          [
+            117.640221,
+            32.901634
+          ],
+          [
+            118.468114,
+            33.023402
+          ],
+          [
+            119.141106,
+            33.502789
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "HYDRO_ID": "hydro_004",
+        "NAME_CH": "汉水水运线",
+        "CLASS_CH": "河流/水运",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "兴元府 -> 金州 -> 均州 -> 襄州 -> 汉阳军 -> 鄂州",
+        "NODE_SOURCES": "兴元府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 金州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 均州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 襄州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 汉阳军:layers/zz_ns_prefecture_points_simplified_v13.geojson; 鄂州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 772.7,
+        "CALIBRATION_STATUS": "节点化校准水运线",
+        "AUTHORITY": "SOURCE_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "川陕-荆襄-江汉水运、军事调度",
+        "HISTORICAL_NOTE": "承接秦巴、汉中、襄汉方向的水运和军事通道。",
+        "SOURCE_BASIS": "CHGIS 府州点 + 宋代交通地理常识 + DEM 水系参考",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": false,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.022972,
+            33.075005
+          ],
+          [
+            109.021973,
+            32.699291
+          ],
+          [
+            111.16557,
+            32.668153
+          ],
+          [
+            112.158699,
+            32.026524
+          ],
+          [
+            114.26899,
+            30.552242
+          ],
+          [
+            114.306655,
+            30.57367
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "HYDRO_ID": "hydro_005",
+        "NAME_CH": "长江中游干线",
+        "CLASS_CH": "大江干线",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "夔州 -> 归州 -> 峡州 -> 江陵府 -> 鄂州 -> 岳州 -> 江宁府 -> 润州 -> 扬州",
+        "NODE_SOURCES": "夔州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 归州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 峡州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 江陵府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 鄂州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 岳州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 江宁府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 润州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 扬州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 1354.3,
+        "CALIBRATION_STATUS": "节点化校准大江干线",
+        "AUTHORITY": "SOURCE_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "江运、峡江风险、江防与转运",
+        "HISTORICAL_NOTE": "连接峡江、荆湖、江淮的主水道骨架。",
+        "SOURCE_BASIS": "CHGIS 府州点 + DEM/水系参考",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": false,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            109.571037,
+            31.041637
+          ],
+          [
+            110.69416,
+            30.999617
+          ],
+          [
+            111.287125,
+            30.704227
+          ],
+          [
+            112.190773,
+            30.350445
+          ],
+          [
+            114.306655,
+            30.57367
+          ],
+          [
+            113.097656,
+            29.37126
+          ],
+          [
+            118.76899,
+            32.052563
+          ],
+          [
+            119.44429,
+            32.20649
+          ],
+          [
+            119.437187,
+            32.39127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "HYDRO_ID": "hydro_006",
+        "NAME_CH": "江南运河/两浙水网",
+        "CLASS_CH": "运河/水网",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "扬州 -> 润州 -> 常州 -> 苏州 -> 秀州 -> 杭州",
+        "NODE_SOURCES": "扬州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 润州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 常州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 苏州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 秀州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 杭州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 308.5,
+        "CALIBRATION_STATUS": "节点化校准水网",
+        "AUTHORITY": "SOURCE_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "江南漕运、市场、仓储、税粮",
+        "HISTORICAL_NOTE": "用于两浙、江南东路的水网与转运显示。",
+        "SOURCE_BASIS": "宋代漕运地理 + CHGIS 府州点 + 水网参考",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": false,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.437187,
+            32.39127
+          ],
+          [
+            119.44429,
+            32.20649
+          ],
+          [
+            119.952301,
+            31.782784
+          ],
+          [
+            120.618622,
+            31.31271
+          ],
+          [
+            120.753204,
+            30.767469
+          ],
+          [
+            120.168625,
+            30.294125
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "HYDRO_ID": "hydro_007",
+        "NAME_CH": "成都平原岷江/蜀中水运骨架",
+        "CLASS_CH": "河流/盆地水网",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "成都府 -> 眉州 -> 嘉州 -> 遂州 -> 梓州 -> 夔州",
+        "NODE_SOURCES": "成都府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 眉州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 嘉州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 遂州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 梓州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 夔州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 837.1,
+        "CALIBRATION_STATUS": "蜀中水陆转运骨架",
+        "AUTHORITY": "PLANNING_REFERENCE",
+        "CONFIDENCE": "regional_topology_low_to_medium",
+        "GAME_USE": "四川盆地物资、盐茶、入峡转运",
+        "HISTORICAL_NOTE": "当前为盆地水运和入峡方向骨架，后续需地方志/水经资料细校。",
+        "SOURCE_BASIS": "CHGIS 府州点 + DEM 盆地水系参考",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": true,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            104.075401,
+            30.666059
+          ],
+          [
+            103.832924,
+            30.04657
+          ],
+          [
+            103.762695,
+            29.564745
+          ],
+          [
+            105.57486,
+            30.509245
+          ],
+          [
+            105.086739,
+            31.090475
+          ],
+          [
+            109.571037,
+            31.041637
+          ]
+        ]
+      }
+    }
+  ]
+}

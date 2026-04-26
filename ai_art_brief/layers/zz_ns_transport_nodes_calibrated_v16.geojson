@@ -1,0 +1,1271 @@
+{
+  "type": "FeatureCollection",
+  "name": "zz_ns_transport_nodes_calibrated_v16",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0001",
+        "NAME_CH": "开封府",
+        "NAME_JT": "开封府",
+        "NODE_ROLES": [
+          "驿路",
+          "边防道路",
+          "漕运/驿路混合",
+          "驿路/水陆联运"
+        ],
+        "ROUTE_NAMES": [
+          "东京-西京-关中驿路",
+          "河北北路边防驿路",
+          "东京-淮南漕运转运线",
+          "荆襄-江汉通道"
+        ],
+        "DEGREE": 4,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.346184,
+          34.790062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0002",
+        "NAME_CH": "郑州",
+        "NAME_JT": "郑州",
+        "NODE_ROLES": [
+          "驿路"
+        ],
+        "ROUTE_NAMES": [
+          "东京-西京-关中驿路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.659744,
+          34.752853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0003",
+        "NAME_CH": "河南府",
+        "NAME_JT": "河南府",
+        "NODE_ROLES": [
+          "驿路"
+        ],
+        "ROUTE_NAMES": [
+          "东京-西京-关中驿路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.456207,
+          34.679855
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0004",
+        "NAME_CH": "陕州",
+        "NAME_JT": "陕州",
+        "NODE_ROLES": [
+          "驿路"
+        ],
+        "ROUTE_NAMES": [
+          "东京-西京-关中驿路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.145027,
+          34.796078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0005",
+        "NAME_CH": "华州",
+        "NAME_JT": "华州",
+        "NODE_ROLES": [
+          "驿路"
+        ],
+        "ROUTE_NAMES": [
+          "东京-西京-关中驿路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.761948,
+          34.515263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0006",
+        "NAME_CH": "京兆府",
+        "NAME_JT": "京兆府",
+        "NODE_ROLES": [
+          "驿路",
+          "入蜀通道"
+        ],
+        "ROUTE_NAMES": [
+          "东京-西京-关中驿路",
+          "川陕入蜀道路"
+        ],
+        "DEGREE": 2,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.93719,
+          34.31799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0007",
+        "NAME_CH": "凤翔府",
+        "NAME_JT": "凤翔府",
+        "NODE_ROLES": [
+          "驿路",
+          "边防道路",
+          "入蜀通道"
+        ],
+        "ROUTE_NAMES": [
+          "东京-西京-关中驿路",
+          "秦凤-泾原边防道路",
+          "川陕入蜀道路"
+        ],
+        "DEGREE": 3,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.389427,
+          34.523739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0008",
+        "NAME_CH": "秦州",
+        "NAME_JT": "秦州",
+        "NODE_ROLES": [
+          "驿路",
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "东京-西京-关中驿路",
+          "秦凤-泾原边防道路"
+        ],
+        "DEGREE": 2,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.549095,
+          34.986434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0009",
+        "NAME_CH": "大名府",
+        "NAME_JT": "大名府",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河北北路边防驿路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.205604,
+          36.296364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0010",
+        "NAME_CH": "真定府",
+        "NAME_JT": "真定府",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河北北路边防驿路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.563645,
+          38.14011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0011",
+        "NAME_CH": "定州",
+        "NAME_JT": "定州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河北北路边防驿路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.975044,
+          38.520061
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0012",
+        "NAME_CH": "雄州",
+        "NAME_JT": "雄州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河北北路边防驿路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.09343,
+          38.975533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0013",
+        "NAME_CH": "太原府",
+        "NAME_JT": "太原府",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.564827,
+          37.873753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0014",
+        "NAME_CH": "忻州",
+        "NAME_JT": "忻州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.731201,
+          38.398563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0015",
+        "NAME_CH": "代州",
+        "NAME_JT": "代州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.949043,
+          39.060391
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0016",
+        "NAME_CH": "岚州",
+        "NAME_JT": "岚州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.69323,
+          38.390945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0017",
+        "NAME_CH": "府州",
+        "NAME_JT": "府州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.070953,
+          39.029251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0018",
+        "NAME_CH": "麟州",
+        "NAME_JT": "麟州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.482146,
+          38.949458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0019",
+        "NAME_CH": "延州",
+        "NAME_JT": "延州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路",
+          "秦凤-泾原边防道路"
+        ],
+        "DEGREE": 2,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.493585,
+          36.605511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0020",
+        "NAME_CH": "鄜州",
+        "NAME_JT": "鄜州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.36716,
+          35.99563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0021",
+        "NAME_CH": "坊州",
+        "NAME_JT": "坊州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.257507,
+          35.58374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0022",
+        "NAME_CH": "同州",
+        "NAME_JT": "同州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.93905,
+          34.79724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0023",
+        "NAME_CH": "河中府",
+        "NAME_JT": "河中府",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "河东-麟府边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.332306,
+          34.835129
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0024",
+        "NAME_CH": "渭州",
+        "NAME_JT": "渭州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "秦凤-泾原边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.697388,
+          35.529972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0025",
+        "NAME_CH": "泾州",
+        "NAME_JT": "泾州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "秦凤-泾原边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.352135,
+          35.350021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0026",
+        "NAME_CH": "原州",
+        "NAME_JT": "原州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "秦凤-泾原边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.194428,
+          35.67804
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0027",
+        "NAME_CH": "庆州",
+        "NAME_JT": "庆州",
+        "NODE_ROLES": [
+          "边防道路"
+        ],
+        "ROUTE_NAMES": [
+          "秦凤-泾原边防道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.874535,
+          36.009159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0028",
+        "NAME_CH": "兴元府",
+        "NAME_JT": "兴元府",
+        "NODE_ROLES": [
+          "入蜀通道"
+        ],
+        "ROUTE_NAMES": [
+          "川陕入蜀道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.022972,
+          33.075005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0029",
+        "NAME_CH": "利州",
+        "NAME_JT": "利州",
+        "NODE_ROLES": [
+          "入蜀通道"
+        ],
+        "ROUTE_NAMES": [
+          "川陕入蜀道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.817719,
+          32.439735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0030",
+        "NAME_CH": "梓州",
+        "NAME_JT": "梓州",
+        "NODE_ROLES": [
+          "入蜀通道"
+        ],
+        "ROUTE_NAMES": [
+          "川陕入蜀道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.086739,
+          31.090475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0031",
+        "NAME_CH": "成都府",
+        "NAME_JT": "成都府",
+        "NODE_ROLES": [
+          "入蜀通道"
+        ],
+        "ROUTE_NAMES": [
+          "川陕入蜀道路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.075401,
+          30.666059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0032",
+        "NAME_CH": "应天府",
+        "NAME_JT": "应天府",
+        "NODE_ROLES": [
+          "漕运/驿路混合"
+        ],
+        "ROUTE_NAMES": [
+          "东京-淮南漕运转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.603643,
+          34.365722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0033",
+        "NAME_CH": "宿州",
+        "NAME_JT": "宿州",
+        "NODE_ROLES": [
+          "漕运/驿路混合"
+        ],
+        "ROUTE_NAMES": [
+          "东京-淮南漕运转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.971397,
+          33.642368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0034",
+        "NAME_CH": "泗州",
+        "NAME_JT": "泗州",
+        "NODE_ROLES": [
+          "漕运/驿路混合"
+        ],
+        "ROUTE_NAMES": [
+          "东京-淮南漕运转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.468114,
+          33.023402
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0035",
+        "NAME_CH": "楚州",
+        "NAME_JT": "楚州",
+        "NODE_ROLES": [
+          "漕运/驿路混合"
+        ],
+        "ROUTE_NAMES": [
+          "东京-淮南漕运转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.141106,
+          33.502789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0036",
+        "NAME_CH": "扬州",
+        "NAME_JT": "扬州",
+        "NODE_ROLES": [
+          "漕运/驿路混合",
+          "漕运"
+        ],
+        "ROUTE_NAMES": [
+          "东京-淮南漕运转运线",
+          "江南运河转运线"
+        ],
+        "DEGREE": 2,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.437187,
+          32.39127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0037",
+        "NAME_CH": "润州",
+        "NAME_JT": "润州",
+        "NODE_ROLES": [
+          "漕运"
+        ],
+        "ROUTE_NAMES": [
+          "江南运河转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.44429,
+          32.20649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0038",
+        "NAME_CH": "常州",
+        "NAME_JT": "常州",
+        "NODE_ROLES": [
+          "漕运"
+        ],
+        "ROUTE_NAMES": [
+          "江南运河转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.952301,
+          31.782784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0039",
+        "NAME_CH": "苏州",
+        "NAME_JT": "苏州",
+        "NODE_ROLES": [
+          "漕运"
+        ],
+        "ROUTE_NAMES": [
+          "江南运河转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.618622,
+          31.31271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0040",
+        "NAME_CH": "秀州",
+        "NAME_JT": "秀州",
+        "NODE_ROLES": [
+          "漕运"
+        ],
+        "ROUTE_NAMES": [
+          "江南运河转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.753204,
+          30.767469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0041",
+        "NAME_CH": "杭州",
+        "NAME_JT": "杭州",
+        "NODE_ROLES": [
+          "漕运"
+        ],
+        "ROUTE_NAMES": [
+          "江南运河转运线"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.168625,
+          30.294125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0042",
+        "NAME_CH": "江宁府",
+        "NAME_JT": "江宁府",
+        "NODE_ROLES": [
+          "驿路/商路"
+        ],
+        "ROUTE_NAMES": [
+          "江南西路-广南东路陆路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.76899,
+          32.052563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0043",
+        "NAME_CH": "洪州",
+        "NAME_JT": "洪州",
+        "NODE_ROLES": [
+          "驿路/商路"
+        ],
+        "ROUTE_NAMES": [
+          "江南西路-广南东路陆路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.89772,
+          28.674896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0044",
+        "NAME_CH": "吉州",
+        "NAME_JT": "吉州",
+        "NODE_ROLES": [
+          "驿路/商路"
+        ],
+        "ROUTE_NAMES": [
+          "江南西路-广南东路陆路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.971275,
+          27.103239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0045",
+        "NAME_CH": "虔州",
+        "NAME_JT": "虔州",
+        "NODE_ROLES": [
+          "驿路/商路"
+        ],
+        "ROUTE_NAMES": [
+          "江南西路-广南东路陆路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.93248,
+          25.847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0046",
+        "NAME_CH": "韶州",
+        "NAME_JT": "韶州",
+        "NODE_ROLES": [
+          "驿路/商路"
+        ],
+        "ROUTE_NAMES": [
+          "江南西路-广南东路陆路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.603417,
+          24.810209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0047",
+        "NAME_CH": "广州",
+        "NAME_JT": "广州",
+        "NODE_ROLES": [
+          "驿路/商路"
+        ],
+        "ROUTE_NAMES": [
+          "江南西路-广南东路陆路"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.256066,
+          23.134624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0048",
+        "NAME_CH": "许州",
+        "NAME_JT": "许州",
+        "NODE_ROLES": [
+          "驿路/水陆联运"
+        ],
+        "ROUTE_NAMES": [
+          "荆襄-江汉通道"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.813599,
+          34.027443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0049",
+        "NAME_CH": "邓州",
+        "NAME_JT": "邓州",
+        "NODE_ROLES": [
+          "驿路/水陆联运"
+        ],
+        "ROUTE_NAMES": [
+          "荆襄-江汉通道"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.080223,
+          32.683277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0050",
+        "NAME_CH": "襄州",
+        "NAME_JT": "襄州",
+        "NODE_ROLES": [
+          "驿路/水陆联运"
+        ],
+        "ROUTE_NAMES": [
+          "荆襄-江汉通道"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.158699,
+          32.026524
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0051",
+        "NAME_CH": "江陵府",
+        "NAME_JT": "江陵府",
+        "NODE_ROLES": [
+          "驿路/水陆联运"
+        ],
+        "ROUTE_NAMES": [
+          "荆襄-江汉通道"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.190773,
+          30.350445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NODE_ID": "transport_node_0052",
+        "NAME_CH": "鄂州",
+        "NAME_JT": "鄂州",
+        "NODE_ROLES": [
+          "驿路/水陆联运"
+        ],
+        "ROUTE_NAMES": [
+          "荆襄-江汉通道"
+        ],
+        "DEGREE": 1,
+        "NAME_SCRIPT": "简体中文",
+        "GAME_USE": "驿路/漕运/边防交通节点"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.306655,
+          30.57367
+        ]
+      }
+    }
+  ]
+}

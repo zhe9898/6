@@ -1,0 +1,484 @@
+{
+  "type": "FeatureCollection",
+  "name": "zz_ns_transport_routes_calibrated_v16",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_001",
+        "NAME_CH": "东京-西京-关中驿路",
+        "CLASS_CH": "驿路",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "开封府 -> 郑州 -> 河南府 -> 陕州 -> 华州 -> 京兆府 -> 凤翔府 -> 秦州",
+        "NODE_SOURCES": "开封府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 郑州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 河南府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 陕州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 华州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 京兆府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 凤翔府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 秦州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 822.3,
+        "CALIBRATION_STATUS": "由既有种子线升为规划路网骨架",
+        "AUTHORITY": "PLANNING_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "驿递、官员移动、军调、关中联系",
+        "HISTORICAL_NOTE": "东京-洛阳-关中主轴。",
+        "SOURCE_BASIS": "CHGIS 府州点 + 宋代交通地理常识",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": true,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.346184,
+            34.790062
+          ],
+          [
+            113.659744,
+            34.752853
+          ],
+          [
+            112.456207,
+            34.679855
+          ],
+          [
+            111.145027,
+            34.796078
+          ],
+          [
+            109.761948,
+            34.515263
+          ],
+          [
+            108.93719,
+            34.31799
+          ],
+          [
+            107.389427,
+            34.523739
+          ],
+          [
+            105.549095,
+            34.986434
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_002",
+        "NAME_CH": "河北北路边防驿路",
+        "CLASS_CH": "边防道路",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "开封府 -> 大名府 -> 真定府 -> 定州 -> 雄州",
+        "NODE_SOURCES": "开封府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 大名府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 真定府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 定州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 雄州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 562.3,
+        "CALIBRATION_STATUS": "河北边防骨架",
+        "AUTHORITY": "PLANNING_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "辽宋边防、军报、军粮调度",
+        "HISTORICAL_NOTE": "连接东京、河北重镇与北部边防。",
+        "SOURCE_BASIS": "CHGIS 府州点 + 北宋边防格局",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": true,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.346184,
+            34.790062
+          ],
+          [
+            115.205604,
+            36.296364
+          ],
+          [
+            114.563645,
+            38.14011
+          ],
+          [
+            114.975044,
+            38.520061
+          ],
+          [
+            116.09343,
+            38.975533
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_003",
+        "NAME_CH": "河东-麟府边防道路",
+        "CLASS_CH": "边防道路",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "太原府 -> 忻州 -> 代州 -> 岚州 -> 府州 -> 麟州 -> 延州 -> 鄜州 -> 坊州 -> 同州 -> 河中府",
+        "NODE_SOURCES": "太原府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 忻州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 代州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 岚州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 府州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 麟州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 延州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 鄜州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 坊州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 同州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 河中府:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 942.5,
+        "CALIBRATION_STATUS": "河东边地骨架",
+        "AUTHORITY": "PLANNING_REFERENCE",
+        "CONFIDENCE": "topology_low_to_medium",
+        "GAME_USE": "边寨、军城、山地通道、补给压力",
+        "HISTORICAL_NOTE": "穿越河东山地，几何需地方志和关隘点继续细校。",
+        "SOURCE_BASIS": "CHGIS 府州点 + DEM 地貌屏障",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": true,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            112.564827,
+            37.873753
+          ],
+          [
+            112.731201,
+            38.398563
+          ],
+          [
+            112.949043,
+            39.060391
+          ],
+          [
+            111.69323,
+            38.390945
+          ],
+          [
+            111.070953,
+            39.029251
+          ],
+          [
+            110.482146,
+            38.949458
+          ],
+          [
+            109.493585,
+            36.605511
+          ],
+          [
+            109.36716,
+            35.99563
+          ],
+          [
+            109.257507,
+            35.58374
+          ],
+          [
+            109.93905,
+            34.79724
+          ],
+          [
+            110.332306,
+            34.835129
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_004",
+        "NAME_CH": "秦凤-泾原边防道路",
+        "CLASS_CH": "边防道路",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "凤翔府 -> 秦州 -> 渭州 -> 泾州 -> 原州 -> 庆州 -> 延州",
+        "NODE_SOURCES": "凤翔府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 秦州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 渭州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 泾州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 原州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 庆州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 延州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 629.1,
+        "CALIBRATION_STATUS": "西北边防骨架",
+        "AUTHORITY": "PLANNING_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "西夏/蕃部方向军调、寨堡、粮道",
+        "HISTORICAL_NOTE": "用于秦凤、泾原、环庆等边防压力。",
+        "SOURCE_BASIS": "CHGIS 府州点 + 北宋西北边防格局",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": true,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.389427,
+            34.523739
+          ],
+          [
+            105.549095,
+            34.986434
+          ],
+          [
+            106.697388,
+            35.529972
+          ],
+          [
+            107.352135,
+            35.350021
+          ],
+          [
+            107.194428,
+            35.67804
+          ],
+          [
+            107.874535,
+            36.009159
+          ],
+          [
+            109.493585,
+            36.605511
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_005",
+        "NAME_CH": "川陕入蜀道路",
+        "CLASS_CH": "入蜀通道",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "京兆府 -> 凤翔府 -> 兴元府 -> 利州 -> 梓州 -> 成都府",
+        "NODE_SOURCES": "京兆府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 凤翔府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 兴元府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 利州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 梓州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 成都府:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 714,
+        "CALIBRATION_STATUS": "入蜀骨架",
+        "AUTHORITY": "PLANNING_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "蜀道、军粮、贸易、山地通行成本",
+        "HISTORICAL_NOTE": "秦岭-大巴山通道，需要关隘节点进一步细化。",
+        "SOURCE_BASIS": "CHGIS 府州点 + DEM 山地通道",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": true,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            108.93719,
+            34.31799
+          ],
+          [
+            107.389427,
+            34.523739
+          ],
+          [
+            107.022972,
+            33.075005
+          ],
+          [
+            105.817719,
+            32.439735
+          ],
+          [
+            105.086739,
+            31.090475
+          ],
+          [
+            104.075401,
+            30.666059
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_006",
+        "NAME_CH": "东京-淮南漕运转运线",
+        "CLASS_CH": "漕运/驿路混合",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "开封府 -> 应天府 -> 宿州 -> 泗州 -> 楚州 -> 扬州",
+        "NODE_SOURCES": "开封府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 应天府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 宿州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 泗州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 楚州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 扬州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 638,
+        "CALIBRATION_STATUS": "漕运骨架",
+        "AUTHORITY": "SOURCE_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "粮运、仓储、河渠维护",
+        "HISTORICAL_NOTE": "与汴河/通济渠层互相印证。",
+        "SOURCE_BASIS": "宋史河渠志 + CHGIS 府州点",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": false,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.346184,
+            34.790062
+          ],
+          [
+            115.603643,
+            34.365722
+          ],
+          [
+            116.971397,
+            33.642368
+          ],
+          [
+            118.468114,
+            33.023402
+          ],
+          [
+            119.141106,
+            33.502789
+          ],
+          [
+            119.437187,
+            32.39127
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_007",
+        "NAME_CH": "江南运河转运线",
+        "CLASS_CH": "漕运",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "扬州 -> 润州 -> 常州 -> 苏州 -> 秀州 -> 杭州",
+        "NODE_SOURCES": "扬州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 润州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 常州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 苏州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 秀州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 杭州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 308.5,
+        "CALIBRATION_STATUS": "江南漕运骨架",
+        "AUTHORITY": "SOURCE_CALIBRATED_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "税粮、商品流、仓储和市场",
+        "HISTORICAL_NOTE": "用于江南、两浙水网的经济流动。",
+        "SOURCE_BASIS": "宋代漕运地理 + CHGIS 府州点",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": false,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            119.437187,
+            32.39127
+          ],
+          [
+            119.44429,
+            32.20649
+          ],
+          [
+            119.952301,
+            31.782784
+          ],
+          [
+            120.618622,
+            31.31271
+          ],
+          [
+            120.753204,
+            30.767469
+          ],
+          [
+            120.168625,
+            30.294125
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_008",
+        "NAME_CH": "江南西路-广南东路陆路",
+        "CLASS_CH": "驿路/商路",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "江宁府 -> 洪州 -> 吉州 -> 虔州 -> 韶州 -> 广州",
+        "NODE_SOURCES": "江宁府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 洪州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 吉州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 虔州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 韶州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 广州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 1168.6,
+        "CALIBRATION_STATUS": "南方陆路骨架",
+        "AUTHORITY": "PLANNING_REFERENCE",
+        "CONFIDENCE": "topology_low_to_medium",
+        "GAME_USE": "岭南交通、商旅、官员迁转",
+        "HISTORICAL_NOTE": "跨南岭方向需关隘和地方志细化。",
+        "SOURCE_BASIS": "CHGIS 府州点 + DEM 南岭通道",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": true,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            118.76899,
+            32.052563
+          ],
+          [
+            115.89772,
+            28.674896
+          ],
+          [
+            114.971275,
+            27.103239
+          ],
+          [
+            114.93248,
+            25.847
+          ],
+          [
+            113.603417,
+            24.810209
+          ],
+          [
+            113.256066,
+            23.134624
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ROUTE_ID": "route_009",
+        "NAME_CH": "荆襄-江汉通道",
+        "CLASS_CH": "驿路/水陆联运",
+        "PERIOD_BAND": "北宋规划校准层",
+        "NODE_NAMES": "开封府 -> 许州 -> 邓州 -> 襄州 -> 江陵府 -> 鄂州",
+        "NODE_SOURCES": "开封府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 许州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 邓州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 襄州:layers/zz_ns_prefecture_points_simplified_v13.geojson; 江陵府:layers/zz_ns_prefecture_points_simplified_v13.geojson; 鄂州:layers/zz_ns_prefecture_points_simplified_v13.geojson",
+        "LENGTH_KM": 781.6,
+        "CALIBRATION_STATUS": "中部水陆联运骨架",
+        "AUTHORITY": "PLANNING_REFERENCE",
+        "CONFIDENCE": "topology_medium",
+        "GAME_USE": "荆襄军事、商旅、汉水联运",
+        "HISTORICAL_NOTE": "承接中原到荆湖、江汉方向。",
+        "SOURCE_BASIS": "CHGIS 府州点 + 汉水水运层",
+        "NAME_SCRIPT": "简体中文",
+        "NOT_FINAL_GEOMETRY": true,
+        "PROMOTION_RULE": "用于沙盘与游戏骨架；正式史实几何仍需地方志、河渠图、谭图和拓扑复核。"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            114.346184,
+            34.790062
+          ],
+          [
+            113.813599,
+            34.027443
+          ],
+          [
+            112.080223,
+            32.683277
+          ],
+          [
+            112.158699,
+            32.026524
+          ],
+          [
+            112.190773,
+            30.350445
+          ],
+          [
+            114.306655,
+            30.57367
+          ]
+        ]
+      }
+    }
+  ]
+}

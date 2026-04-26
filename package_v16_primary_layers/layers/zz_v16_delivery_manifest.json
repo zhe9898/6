@@ -1,0 +1,31 @@
+{
+  "version": "v16",
+  "generated_at": "2026-04-26T02:04:46.947Z",
+  "source_links": {
+    "chgis_dataverse": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/I0Q7SM",
+    "chgis_project": "https://chgis.fas.harvard.edu/",
+    "aws_terrain_tiles": "https://registry.opendata.aws/terrain-tiles/",
+    "songshi_hequ_zhi_note": "宋史·河渠志用于河渠名称与问题域校准；几何仍以 CHGIS 点、DEM、水系参考和谭图复核。",
+    "yuanfeng_jiuyu_zhi_note": "元丰九域志用于北宋地名/行政点内容校准；本包不把文本直接当边界几何。"
+  },
+  "outputs": {
+    "hydro": "layers/zz_ns_hydro_calibrated_v16.geojson",
+    "routes": "layers/zz_ns_transport_routes_calibrated_v16.geojson",
+    "route_nodes": "layers/zz_ns_transport_nodes_calibrated_v16.geojson",
+    "mountains": "layers/zz_ns_named_mountains_calibrated_v16.geojson",
+    "tan_promotion_queue": "layers/zz_tan_linework_promotion_queue_v16.geojson",
+    "zoom_manifest": "layers/zz_game_zoom_slice_manifest_v16.json",
+    "reference_map": "layers/zz_ns_game_layers_reference_map_v16.png"
+  },
+  "counts": {
+    "hydro": 7,
+    "routes": 9,
+    "route_nodes": 52,
+    "mountains": 16,
+    "tan_promotion_queue": 230,
+    "z7_major_prefecture_points": 65,
+    "z8_z9_prefecture_route_points": 84,
+    "z10_z11_county_focus_seed_points": 9
+  },
+  "authority_note": "v16 增补游戏和规划层，不伪装成最终史实几何。"
+}

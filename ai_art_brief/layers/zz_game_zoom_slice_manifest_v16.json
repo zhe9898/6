@@ -1,0 +1,49 @@
+{
+  "version": "v16",
+  "generated_at": "2026-04-26T02:04:46.947Z",
+  "rules": [
+    {
+      "zoom": "z7 全国层",
+      "show": [
+        "layers/zz_ns_prefecture_full_planning_surfaces_v15.geojson",
+        "layers/zz_game_z7_major_prefecture_points_v16.geojson",
+        "layers/zz_ns_hydro_calibrated_v16.geojson",
+        "layers/zz_ns_named_mountains_calibrated_v16.geojson"
+      ],
+      "hide": [
+        "县级细边",
+        "乡镇点",
+        "低置信路线"
+      ]
+    },
+    {
+      "zoom": "z8-z9 路州层",
+      "show": [
+        "layers/zz_ns_prefecture_full_planning_surfaces_v15.geojson",
+        "layers/zz_game_z8_z9_prefecture_route_points_v16.geojson",
+        "layers/zz_ns_transport_routes_calibrated_v16.geojson",
+        "layers/zz_ns_hydro_calibrated_v16.geojson",
+        "layers/zz_tan_linework_promotion_queue_v16.geojson"
+      ],
+      "hide": [
+        "未选中区域乡镇点"
+      ]
+    },
+    {
+      "zoom": "z10-z11 县乡层",
+      "show": [
+        "layers/zz_ns_county_full_planning_surfaces_v15.geojson",
+        "layers/zz_game_z10_z11_county_focus_seed_points_v16.geojson",
+        "layers/zz_ns_township_points_simplified_v13.geojson",
+        "layers/zz_ns_transport_nodes_calibrated_v16.geojson"
+      ],
+      "rule": "运行时按当前选中府州/路区域裁剪县乡层；不要全图同时显示 3272 个乡镇点。"
+    }
+  ],
+  "counts": {
+    "z7_major_prefecture_points": 65,
+    "z8_z9_prefecture_route_points": 84,
+    "z10_z11_county_focus_seed_points": 9,
+    "total_township_points_available_for_focus": 3272
+  }
+}

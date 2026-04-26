@@ -1,0 +1,45 @@
+{
+  "generated_at": "2026-04-26T02:05:33.678652+00:00",
+  "input_gap_points_v13": 2780,
+  "resolved_gap_points_v16": 2780,
+  "unresolved_gap_points_v16": 0,
+  "coverage": {
+    "county_surface": 2780,
+    "prefecture_surface_only": 0,
+    "unresolved": 0
+  },
+  "by_level": {
+    "county_point": 974,
+    "prefecture_point": 350,
+    "township_or_manual_county": 1456
+  },
+  "by_type_top": {
+    "乡": 1200,
+    "县": 1010,
+    "州": 272,
+    "镇": 96,
+    "羁縻州": 57,
+    "府": 35,
+    "军": 31,
+    "赕": 18,
+    "郡": 13,
+    "部": 10,
+    "城": 9,
+    "监": 6,
+    "寨": 5,
+    "甸": 5,
+    "节度": 3,
+    "砦": 3,
+    "土州": 2,
+    "都监": 1,
+    "施": 1,
+    "邑": 1,
+    "堡": 1,
+    "尉司": 1
+  },
+  "outputs": {
+    "resolved_points": "layers/zz_ns_admin_gap_points_resolved_v16.geojson",
+    "unresolved_worklist": "layers/zz_ns_admin_gap_worklist_v16.geojson"
+  },
+  "authority_note": "v16 将 v13 缺面点全部落到 v15/v16 规划面；这解决游戏显示缺面，不等于生成官方史实边界。"
+}
