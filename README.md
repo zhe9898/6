@@ -7,6 +7,8 @@ This repository hosts the Northern Song GIS/sandbox data package.
 The full package is published as a GitHub Release asset:
 
 - `northern_song_filled.zip`
+- Release page: https://github.com/zhe9898/6/releases/tag/northern-song-v16
+- Direct asset: https://github.com/zhe9898/6/releases/download/northern-song-v16/northern_song_filled.zip
 
 The zip is intentionally kept as a single release asset because it is about 499 MB, which is larger than GitHub's normal single-file limit for files committed directly into the repository.
 
